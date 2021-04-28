@@ -2,10 +2,12 @@ Rails.application.routes.draw do
 
   root to: 'products#index'
 
-  get '/about', to: 'about#index'
+  # get '/about', to: 'about#index'
+  # resources :about, only: [:index]
 
   resources :products, only: [:index, :show]
   resources :categories, only: [:show]
+  resources :about, only: [:index]
 
   resource :cart, only: [:show] do
     post   :add_item
