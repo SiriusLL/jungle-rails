@@ -1,2 +1,27 @@
-<h1>Admin::Dashboard#show</h1>
-<p>Find me in app/views/admin/dashboard/show.html.erb</p>
+
+<div class="order-summary jumbotron">
+    <h1>Admin Dashboard</h1> 
+</div>
+
+
+  <div class="panel panel-default items">
+    <table class="table table-bordered table table-striped">
+      <thead>
+        <tr>
+          <th>Number Of Products</th>
+          <th>Number Of Categories</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <%= @products_count %>
+          </td>
+          <td>
+            <%= @catagory_count %>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+<%= link_to "Admin Procucts Panel", admin_products_path, class: 'btn btn-lg btn-primary' %>
