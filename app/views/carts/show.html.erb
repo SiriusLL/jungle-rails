@@ -6,10 +6,10 @@
 
 <% if enhanced_cart.length == 0 %>
 
-<%# <div class="alert alert-warning" role="alert"> %>
-  <p><strong>Your cart is empty</strong></p> 
-  <%= link_to 'Would you like to continue shopping', :root %>
-<%# </div> %>
+<div class="alert alert-warning" role="alert">
+  <h3>Your cart is empty</h3> <br/>
+  <%= link_to 'Would you like to continue shopping', :root, class: 'btn btn-lg btn-primary' %>
+</div>
 
 <% else %>
   <div class="panel panel-default items">
