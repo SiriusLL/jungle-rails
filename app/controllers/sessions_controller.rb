@@ -1,5 +1,5 @@
-class SessionsControllerController < ApplicationController
-
+class SessionsController < ApplicationController
+  
   def new
   end
 
@@ -18,5 +18,5 @@ class SessionsControllerController < ApplicationController
     session[:user_id] = nil
     redirect_to login_path
   end
-
+  
 end
