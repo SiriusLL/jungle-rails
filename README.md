@@ -4,11 +4,11 @@ A mini e-commerce application built with Rails 4.2 for purposes of teaching Rail
 
 ## Screenshots
 
-!["Screenshot of Product Index"]()
-!["Screenshot of Product Show"]()
-!["Screenshot of My Cart"]()
-!["Screenshot of Product Admin Dashboard"]()
-!["Screenshot of Admin Categories"]()
+!["Screenshot of Product Index"](https://github.com/SiriusLL/jungle-rails/blob/master/public/docs/products_index.png)
+!["Screenshot of Product Show"](https://github.com/SiriusLL/jungle-rails/blob/master/public/docs/product_show.png)
+!["Screenshot of My Cart"](https://github.com/SiriusLL/jungle-rails/blob/master/public/docs/my_cart.png)
+!["Screenshot of Product Admin Dashboard"](https://github.com/SiriusLL/jungle-rails/blob/master/public/docs/admin_dashboard.png)
+!["Screenshot of Admin Categories"](https://github.com/SiriusLL/jungle-rails/blob/master/public/docs/admin_categories.png)
 
 ## Additional Steps for Apple M1 Machines
 
