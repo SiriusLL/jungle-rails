@@ -22,13 +22,12 @@ RSpec.feature "Visitor navigates to home page", type: :feature, js: true do
     visit root_path
     # first('article.product').click
     # find("img[alt='Red Bookshelf']").click
-    # click_link("Details", match: :first)
-    first('.product > header').click
+    click_on("Add", match: :first)
     # DEBUG
     puts page.html
-    sleep_1
+    
     # VERIFY
-    expect(page).to have_css 'section.products-show'
-    save_screenshot 'one_products.png'
+    expect(page).to have_content 'My Cart (1)'
+    save_screenshot 'add_to_cart.png'
   end
 end
